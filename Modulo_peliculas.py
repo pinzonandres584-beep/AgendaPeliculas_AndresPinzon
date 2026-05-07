@@ -6,7 +6,6 @@ Módulo de cálculos.
 
 def crear_pelicula(nombre: str, genero: str, duracion: int, anio: int, 
                   clasificacion: str, hora: int, dia: str) -> dict:
-    # Construimos el diccionario con las llaves que nos piden
     pelicula = {
         "nombre": nombre,
         "genero": genero,
