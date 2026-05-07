@@ -1,2 +1,6 @@
-# AgendaPeliculas_AndresPinzon
-Proyecto de Agenda de Películas desarrollado en Python. El sistema utiliza diccionarios para almacenar información de los films y módulos independientes para gestionar la lógica de cálculos y la interacción por consola. Incluye validaciones de conflictos de horario y restricciones de clasificación por edad.
+Agenda de Películas - Proyecto Académico
+Estudiante: Andrés David Pinzón Orjuela
+Institución: Universidad Sergio Arboleda
+
+Descripción del Proyecto
+Este sistema es una aplicación interactiva desarrollada en Python diseñada para la gestión de una agenda cinematográfica. El proyecto se divide en un módulo de lógica de cálculos y una interfaz de consola, permitiendo administrar un catálogo de películas mediante el uso de diccionarios.   
