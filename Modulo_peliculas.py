@@ -6,7 +6,7 @@ Módulo de cálculos.
 
 def crear_pelicula(nombre: str, genero: str, duracion: int, anio: int, 
                   clasificacion: str, hora: int, dia: str) -> dict:
-    # Construimos el diccionario con las llaves que pide el profesor
+    # Construimos el diccionario con las llaves que nos piden
     pelicula = {
         "nombre": nombre,
         "genero": genero,
@@ -68,7 +68,8 @@ def cuantas_peliculas_18_mas(p1: dict, p2: dict, p3: dict, p4: dict, p5: dict) -
 
 def reagendar_pelicula(peli:dict, nueva_hora: int, nuevo_dia: str, 
                        control_horario: bool, p1: dict, p2: dict, p3: dict, p4: dict, p5: dict)->bool:
-    # 1. Conflicto de horario: que no haya otra película a la misma hora y día
+    # 1. 
+                         Conflicto de horario: que no haya otra película a la misma hora y día
     for p in [p1, p2, p3, p4, p5]:
         if p != peli and p["dia"] == nuevo_dia and p["hora"] == nueva_hora:
             return False[cite: 1]
