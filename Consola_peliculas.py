@@ -48,7 +48,7 @@ def ejecutar_encontrar_estrenos(p1: dict, p2: dict, p3: dict, p4: dict, p5: dict
     print("Películas estrenadas después de " + str(anio_limite) + ": " + estrenos)
 
 def ejecutar_cuantas_peliculas_18_mas(p1: dict, p2: dict, p3: dict, p4: dict, p5: dict)->None:
-    # Contamos las películas con esa clasificación
+    # Contamos las películas con la clasificación
     cantidad = mod.cuantas_peliculas_18_mas(p1, p2, p3, p4, p5)
     print("En la agenda hay " + str(cantidad) + " película(s) con clasificación 18+.")
     
@@ -96,7 +96,6 @@ def ejecutar_decidir_invitar(p1: dict, p2: dict, p3: dict, p4: dict, p5: dict)->
             print("Lo sentimos, esta persona no cumple los requisitos para ver " + pelicula["nombre"])
   
 def iniciar_aplicacion():
-    # Creamos las películas con los nombres que solicitaste
     pelicula1 = mod.crear_pelicula("John Wick", "Acción, Suspenso", 101, 2014, '18+', 2100, "Viernes")
     pelicula2 = mod.crear_pelicula("Misión Imposible", "Acción, Aventura", 110, 1996, '13+', 1500, "Sábado")  
     pelicula3 = mod.crear_pelicula("Shrek", "Familiar, Comedia", 90, 2001, 'Todos', 1000, "Domingo")
